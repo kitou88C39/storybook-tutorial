@@ -6,3 +6,21 @@ const meta: Meta<typeof Circle> = {
   title: 'Circle',
 };
 export default meta;
+
+export const BaseCircle = {
+  args: {
+    variant: 'orange',
+  },
+};
+
+export const GreenCircle = {
+  args: {
+    variant: 'green',
+  },
+};
+
+export const YellowCircle = {
+  args: {
+    variant: 'yellow',
+  },
+};
