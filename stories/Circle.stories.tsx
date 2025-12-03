@@ -31,3 +31,13 @@ export const YellowCircle = {
     variant: 'yellow',
   },
 };
+
+export const GroupedCircles = {
+  render: () => {
+    <div>
+      <Circle variant='orange' />
+      <Circle variant='green' />
+      <Circle variant='yellow' />
+    </div>;
+  },
+};
