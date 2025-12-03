@@ -7,6 +7,7 @@ const meta: Meta<typeof Circle> = {
   argTypes: {
     variant: {
       control: { type: 'select' },
+      options: ['orange', 'green', 'yellow'],
     },
   },
 };
@@ -28,5 +29,15 @@ export const GreenCircle = {
 export const YellowCircle = {
   args: {
     variant: 'yellow',
+  },
+};
+
+export const GroupedCircles = {
+  render: () => {
+    <div>
+      <Circle variant='orange' />
+      <Circle variant='green' />
+      <Circle variant='yellow' />
+    </div>;
   },
 };
