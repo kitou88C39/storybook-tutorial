@@ -18,8 +18,9 @@ const Circle = ({ variant }: Props) => {
       bgColor = 'bg-yellow-500';
       break;
   }
+
   return (
-    <div className={`${bgColor} w-14 h-14 p-14 bg-red-500 rounded-full`}></div>
+    <div className={`${bgColor} w-14 h-14 p-14 bg-red-500 rounded-full`} />
   );
 };
 
