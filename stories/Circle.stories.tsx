@@ -7,6 +7,7 @@ const meta: Meta<typeof Circle> = {
   argTypes: {
     variant: {
       control: { type: 'select' },
+      options: ['orange', 'green', 'yellow'],
     },
   },
 };
